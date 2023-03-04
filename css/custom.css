@@ -1,0 +1,106 @@
+/*GENERAL*/
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+body {
+  padding-top: 56px;
+  line-height: 1.2;
+  font-family: 'Titillium Web', sans-serif;
+}
+section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+h2 {
+  font-family: 'Dosis', sans-serif;
+}
+.nav-link{
+  font-weight: bold;
+}
+.quote{
+  top: 50%;
+  padding-left: 4%;
+}
+.slogan {
+  font-size: 2.5vw;
+  font-weight: bold;
+}
+.name {
+  font-size: 1.5vw;
+  text-align: right;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.section-title {
+  text-align: center;
+  padding: 0px 10px 30px 10px;
+  display: block;
+}
+.omnie1 {
+  background-color: rgb(249,223,228);
+  line-height: 1.5;
+}
+.btn-one {
+  border-color: white;
+  color: black;
+  background-image: linear-gradient(90deg, rgb(221, 95, 112) 50%, transparent 50%);
+}
+.btn {
+  display: inline-block;
+  min-width: 160px;
+  margin: 24px auto 0 auto;
+  padding: 16px;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-width: 2px;
+  border-style: solid;
+  background-color: inherit;
+  background-position: 100% 0;
+  background-size: 300%;
+  transition: all 1s;
+}
+.btn:hover{
+  background-position: 0 100%;
+      color: #ffffff;
+      font-weight: bold;
+}
+.lnr {
+  display: inline-block;
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.05em;
+  stroke-width: 1;
+}
+.icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 7px;
+}
+.quote-icon {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.omnie1 .list-group-item {
+  background-color: rgb(249,223,228);
+}
+.omnie {
+  background-image: linear-gradient(to bottom, rgb(249,223,228), rgb(255,255,255));
+}
+
+ul {
+  list-style-type: none; 
+  padding-left: 15px; 
+  margin: 0; 
+}
+
+.contact, .contact1 {
+  min-width: 300px;
+}
